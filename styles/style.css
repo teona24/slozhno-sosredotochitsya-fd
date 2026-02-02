@@ -249,6 +249,7 @@
   .decorated-zone::before {
   top: 19px;
   right: 19px;
+  
 }
 
 .decorated-zone::after {
