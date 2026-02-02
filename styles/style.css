@@ -20,7 +20,17 @@
 .header__theme-menu {
   display: grid;
   justify-self: right;
-  margin-top: 71px;
+  margin-block-start: 71px;
+  margin-block-end: 69px;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  height: 98px;
+  justify-content: space-between;
+  gap: 11.5px;
 }
 
 .header__theme-menu-button {
@@ -55,7 +65,6 @@
 
 .header__theme-menu-item {
   list-style: none;
-  padding-bottom: 12px;
 }
 
 .decorative-rec {
@@ -111,8 +120,7 @@
   font-weight: bold;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--title-color);
-  margin-block-start: 55px;
-  margin-block-end: 54px;
+  margin-block-end: 55px;
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
@@ -150,10 +158,11 @@
   font-size: 18px;
   font-weight: 700;
   color: var(--dec-zone-color);
+  line-height: 23.4px;
 }
 
 .card-title {
-  margin-block-end: 13.5px;
+  margin-block-end: 10px;
 }
 
 .card-list {
@@ -166,6 +175,7 @@
   font-size: 18px;
   font-weight: 400;
   color: var(--card-text-color);
+  line-height: 23.4px;
 }
 
 .concentration_card-text {
@@ -192,17 +202,24 @@
 }
 
 .advice-title {
+  line-height: 23.4px;
   margin-block-end: 20px;
 }
 
 .advice-item {
   font-weight: 400;
-  margin-block-end: 12px;
+  margin-block-end: 10px;
+  line-height: 23.4px;
 }
 
-.gallery {
+.gallery-title {
+  line-height: 23.4px;
+  margin-block-end: 10px;
+}
+
+.gallery-img {
   display: grid;
-  gap: 11px;
+  gap: 10px;
 }
 
 .img {
