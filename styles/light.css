@@ -23,15 +23,15 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --bg-image: url('../images/cover-image-light.png');
-  --bg-color: rgba(255, 194, 230, 1);
-  --dec-color: transparent;
-  --dec-zone-color: rgba(53, 52, 48, 1);
-  --header__theme-menu-but-color:rgba(53, 52, 48, 1);
-  --button-hover: rgba(50, 49, 45, 0.4);
-  --title-color: rgba(255, 194, 230, 1);
-  --accent-color: rgba(255, 141, 203, 1);
-  --accent-color-text: rgba(53, 52, 48, 1);
-  --card-text-color:rgba(53, 52, 48, 1);
+    --bg-image: url('../images/cover-image-light.png');
+    --bg-color: rgba(255, 194, 230, 1);
+    --dec-color: transparent;
+    --dec-zone-color: rgba(53, 52, 48, 1);
+    --header__theme-menu-but-color: rgba(53, 52, 48, 1);
+    --button-hover: rgba(50, 49, 45, 0.4);
+    --title-color: rgba(255, 194, 230, 1);
+    --accent-color: rgba(255, 141, 203, 1);
+    --accent-color-text: rgba(53, 52, 48, 1);
+    --card-text-color: rgba(53, 52, 48, 1);
   }
 }
