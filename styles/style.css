@@ -5,6 +5,7 @@
   background-image: var(--bg-image);
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   background-color: var(--bg-color);
 }
 
@@ -21,7 +22,7 @@
   display: grid;
   justify-self: right;
   margin-block-start: 71px;
-  margin-block-end: 67px;
+  margin-block-end: 66px;
 }
 
 .header__theme-menu-list {
@@ -119,7 +120,7 @@
   font-weight: bold;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--title-color);
-  margin-block-end: 53px;
+  margin-block-end: 55px;
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
@@ -132,12 +133,17 @@
   font-weight: bold;
 }
 
+.title_text-container {
+  display: inline-block;
+  height: fit-content;
+  justify-self: right;
+}
+
 .title_text {
   width: 355px;
   padding-right: 32px;
   line-height: 23.4px;
   text-align: left;
-  margin-block-end: 68px;
 }
 
 .main {
@@ -175,6 +181,11 @@
   font-weight: 400;
   color: var(--card-text-color);
   line-height: 23.4px;
+  margin-block-end: 10px;
+}
+
+.card-text:last-child {
+  margin-block-end: 0;
 }
 
 .concentration_card-text {
@@ -262,7 +273,7 @@
 .header {
   min-height: 1024px;
   margin-block-end: 60px;
-  padding: 0 20px 0 0;
+  padding: 0 20px 183px 0;
 }
 
 .header__theme-menu {
@@ -273,14 +284,12 @@
 .header_title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   margin-block-start: 38px;
-  margin-block-end: 118px;
+  margin-block-end: 159px;
   text-align: start;
 }
 
 .title_text {
-  justify-self: end;
   width: 364px;
-  margin-block-end: 183px;
 }
 
 .main {
@@ -310,10 +319,9 @@
 .gallery-img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   gap: 20px;
-  width: 728px;
-  height: 780px;
+  max-width: 728px;
+  margin: 0 auto;
 }
 
 .img {
@@ -395,7 +403,6 @@
 }
 
 .title_text {
-  justify-self: end;
   width: 491px;
   padding-right: 0;
 }
@@ -424,10 +431,8 @@
 .gallery-img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   gap: 20px;
-  width: 984px;
-  height: 1048px;
+  max-width: 984px;
 }
 
 .footer {
